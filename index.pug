@@ -4,17 +4,20 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport" content="width=device-width, initial-scale=1.0")
         meta(name="description" content="Best place for a trip")
-        meta(name="author" content="WiZaRd")
-        link(rel="stylesheet" href="style.css")
+        meta(name="author" content="Aman Kumar")
+        meta(property="og:image" content="https://image.winudf.com/v2/image1/Y29tLnppcm9kaXYuYW5kcm9pZC5Qc3ljaGVkZWxpY0NhbWVyYV9zY3JlZW5fMV8xNTU1MjY0MTc5XzAzOA/screen-1.jpg?fakeurl=1&type=.jpg")
+
+        link(rel="icon" href="https://res.cloudinary.com/dbvthtwhc/image/upload/v1624187548/trippycam/icon_msj0il.png" type="image/x-icon")
         link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css")
+        link(rel="stylesheet" href="style/style.css")
+
         title Trippy Cam!
-        link(rel="icon" href="icon.png" type="image/x-icon")
 
 body
     .photobooth
         canvas.photo
-        a.waves-effect.waves-light.btn.light-blue.darken-1(onClick="takePhoto()") Take Photo
+        a.waves-effect.waves-light.btn.light-blue.darken-1 Take Photo
         video.player
         .strip
-    audio.snap(src="https://res.cloudinary.com/dbvthtwhc/video/upload/v1606744631/Snap_Sound_Effect_z1ahzm.mp3" hidden)
-    script(src="script.js")
+    audio.snap(src="https://res.cloudinary.com/dbvthtwhc/video/upload/v1624188449/trippycam/19_-_Webcam_Fun_snap_yta9rk.mp3" hidden)
+    script(src="js/script.js")
